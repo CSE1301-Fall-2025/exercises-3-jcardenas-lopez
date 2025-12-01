@@ -30,7 +30,7 @@ public class Person
         Person p1 = new Person("Sana", "sana@gmail.com", "123-456-7890");
         // call p1's print method
         p1.print();
-        Person p2 = new Person("Jean", "jean@gmail.com", "404 899-9955");
+        Person p2 = new Person("Jana", "jana@gmail.com", "098-765-4321");
         p2.print();
      }
   }

@@ -37,6 +37,8 @@ public class Person
       Person p1 = new Person("Sana", "sana@gmail.com", "123-456-7890");
       Person p2 = new Person("Jean", "jean@gmail.com", "404 899-9955");
       
+      System.out.println(p1.toString());
+      System.out.println(p2.toString());
       Person.printPersonCounter();
    }
 }

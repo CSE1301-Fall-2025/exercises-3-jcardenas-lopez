@@ -12,9 +12,9 @@ public class Temperature
          maxTemp = t;
   }
 
-  public static printMax()
+  public static void printMax()
   {
-     System.out.println(temperature);
+     System.out.println(maxTemp);
   }
   
   public static void main(String[] args)

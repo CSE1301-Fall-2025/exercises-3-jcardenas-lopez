@@ -9,8 +9,8 @@ public class Tester
      }
      public static void main(String[] args)
      {
-        Person p = new Person("Sila");
-        Student s = new Student("Tully", 1001);
+        Person p = new Person("Jaq");
+        Student s = new Student("Jes", 1001);
         Tester t = new Tester();
         t.print(p); //call print with a Person
         t.print(s); //call print with a Student

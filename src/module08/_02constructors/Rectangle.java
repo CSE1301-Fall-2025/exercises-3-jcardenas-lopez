@@ -17,6 +17,11 @@ class Rectangle
        width = w;
     }
 
+    public int area(){
+      int area = length * width;
+      return area;
+    }
+
     public void draw() 
     {
       for(int i=0; i < length; i++)

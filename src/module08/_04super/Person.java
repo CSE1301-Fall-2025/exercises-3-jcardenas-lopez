@@ -18,5 +18,7 @@ public class Person
       {
          Person p = new Student("Javier");
          System.out.println(p.getFood());
+         Vegan v = new Vegan("Vegan");
+         System.out.println(v.getFood());
       }
    }

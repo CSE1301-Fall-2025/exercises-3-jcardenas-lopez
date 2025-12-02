@@ -65,6 +65,8 @@ public class Person {
 		//What will this be? Why?
 		System.out.println("p2 == p4: " + (p2 == p4));
 
+		System.out.println("p4.equals(p2): " + p4.equals(p2));
+
 
 	}
 }

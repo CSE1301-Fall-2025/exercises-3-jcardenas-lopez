@@ -38,5 +38,12 @@ public class PhoneBook {
 		phonebook.put("ghostbusters", 1234567);
 		
 		//What happened to our map? Print out the appropriate values to check the contents of our data structure
+		System.out.println("map: " + phonebook);
+		System.out.println("size: " + phonebook.size());
+		System.out.println("ghostbusters?: " + phonebook.get("ghostbusters"));
+		System.out.println("jenny?: " + phonebook.get("jenny"));
+		System.out.println("saul goodman?: " + phonebook.get("saul goodman"));
+
+		
 	}
 }
